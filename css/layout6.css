@@ -1,0 +1,31 @@
+.top
+{
+  width:800px;
+  margin-left:auto;margin-right:auto;
+}
+
+.main-content
+{
+  float:left;
+  width:600px;
+}
+
+.my-photo
+{
+  width:60px;
+  height:60px;
+  float:left;
+}
+
+.review-content
+{
+  float:left;
+  line-height: 0;
+}
+
+.main-img
+{
+  float:left;
+  width:150px;
+  height:150px;
+}
