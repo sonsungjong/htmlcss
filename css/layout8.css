@@ -1,0 +1,83 @@
+div, textarea{
+  border: 1px solid yellowgreen;
+  width:400px;
+}
+
+.nav li{
+  display:inline-block;
+  width:60px;
+  background:violet;
+  text-align:center;
+  padding:12px;
+  border-radius: 5px;
+}
+
+.nav li:hover
+{
+  background:red;
+}
+
+.nav li:hover a{
+  color:green;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:focus
+{
+  text-decoration: none;
+  color:blue;
+  font-size:16px;
+}
+
+a:hover{
+  text-decoration: none;
+  color:green;
+  font-size:16px;
+}
+
+.back-image{
+  background-image: url(../images/back_img.jpg);
+  width:100%;
+  height:600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+}
+
+.image-title{
+  color:white;
+  font-size:24px;
+  position:absolute;
+  left: 20%;
+  top: 10%;
+}
+
+.image-content{
+  color:white;
+  font-size:20px;
+  position:absolute;
+  left: 20%;
+  top:20%;
+}
+
+.image-button{
+  /* 
+  position : relative [원래 내 위치를 기준으로 이동]
+  position : absolute [(relative인)부모를 기준으로 이동]
+  */
+  position:absolute;
+  left: 20%;
+  top:40%;
+}
+
+.target
+{
+  background: grey;
+  position:relative;
+  top:-20px;
+  left:400px;
+}
