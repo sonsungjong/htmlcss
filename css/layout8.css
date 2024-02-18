@@ -1,6 +1,10 @@
+body{
+  margin:0;
+}
+
 div, textarea{
   border: 1px solid yellowgreen;
-  width:400px;
+  box-sizing: border-box;
 }
 
 .nav li{
@@ -80,4 +84,32 @@ a:hover{
   position:relative;
   top:-20px;
   left:400px;
+}
+
+.input-class
+{
+  width:200px;
+}
+
+.input-class input{
+  box-sizing: border-box;
+}
+
+.input-class input[type=text],
+.input-class input[type=number]
+{
+  width:100%;
+  padding:10px;
+  font-size:20px;
+  border:2px solid purple;
+  border-radius: 15px;
+}
+
+.my-table{
+  border-collapse: collapse;
+}
+
+.my-table tr td{
+  border:1px solid black;
+  width:200px;
 }
