@@ -21,7 +21,6 @@
       display:flex;
       justify-content: space-between;
       align-items: center;
-      padding-left:100px;
     }
     .logo{
       width:75px;
@@ -73,6 +72,65 @@
       color:green;
       text-decoration: underline;
     }
+
+    .section-one{
+      background-image: url(./images/section1_back.PNG);
+      width:100%;
+      height:32vw;      /* 가로크기의 32% */
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      position:relative;
+    }
+
+    .section-one .text-img
+    {
+      position:absolute;
+      left:20%;
+      top:20%;
+      width:20%;
+    }
+
+    .section-one .detail-btn{
+      position:absolute;
+      left:25%;
+      top:65%;
+      width:10%;
+      background:transparent;
+      border:2px solid darkgreen;
+      color:darkgreen;
+      border-radius:5px;
+      padding:10px;
+      transition: all 0.5s;
+    }
+
+    .section-one .detail-btn:hover
+    {
+      background:darkgreen;
+      color:white;
+      text-decoration: underline;
+      cursor:pointer;
+    }
+
+    .section-one .milk-tea{
+      position:absolute;
+      left:50%;
+      top:15%;
+      width:14%;
+    }
+
+    .section-one .grape-tea{
+      position:absolute;
+      left:55%;
+      top:58%;
+      width:14%;
+    }
+
+    .section-one .cookie-latte{
+      position:absolute;
+      left:65%;
+      top:17%;
+      width:14%;
+    }
     
   </style>
 </head>
@@ -108,7 +166,20 @@
   </div>
 
   <div class="section-one">
+    <img src="./images/section1_text.PNG" alt="" class="text-img">
+    <button class="detail-btn">자세히 보기</button>
+    <img src="./images/white_milk.PNG" alt="" class="milk-tea">
+    <img src="./images/grapefruits_tea.PNG" alt="" class="grape-tea">
+    <img src="./images/cookie_latte.PNG" alt="" class="cookie-latte">
+  </div>
+
+  <div class="section-two">
 
   </div>
+
+  <div class="section-three">
+    
+  </div>
+
 </body>
 </html>
