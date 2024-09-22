@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /*
+                display : block, inline, inline-block, flex, grid
+                [block] : 한줄 모두 차지, 줄바꿈 (div, p, h1~6)
+                [inline] : 내 크기만큼만 차지, 줄바꿈 없음, 크기변경 불가 (a, img, span)
+                [inline-block] : 내 크기만큼만 차지, 줄바꿈 없음, 크기변경 가능
+                [flex] : 내부요소의 가로정렬/세로정렬 편하게
+                [grid] : 내부요소의 표 형태로 정렬 편하게
+            */
+            display:flex;
+            height:100px;
+        }
+        .div-1{
+            background:skyblue;
+            height:100px;
+        }
+        .div-2{
+            display:flex;
+            height:200px;
+        }
+        .div-2-1{
+            background:blue;
+            width:20%;
+        }
+        .div-2-2{
+            background:orange;
+            width:80%;
+        }
+        .div-3{
+            background:gray;
+            height:100px;
+        }
+        .div-0{
+            width:500px;
+            height:400px;
+            border:2px solid red;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-0">
+        <div class="div-1"></div>
+        <div class="div-2">
+            <div class="div-2-1"></div>
+            <div class="div-2-2"></div>
+        </div>
+        <div class="div-3"></div>
+    </div>
+
+</body>
+</html>
